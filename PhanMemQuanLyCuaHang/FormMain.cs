@@ -83,13 +83,6 @@ namespace PhanMemQuanLyCuaHang
             if (isExit)
                 Application.Exit();
         }*/
- 
-        private void CategoryToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            FormAddCategory f = new FormAddCategory(arrCategories);
-            f.frmMain = this;
-            f.ShowDialog();  
-        }
 
         private void updateDatagrid()
         {
