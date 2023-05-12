@@ -29,7 +29,6 @@ namespace PhanMemQuanLyCuaHang
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Mã = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -38,10 +37,6 @@ namespace PhanMemQuanLyCuaHang
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.AddMenuStripItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.CategoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ProductToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.SearchgroupBox = new System.Windows.Forms.GroupBox();
             this.buttonSearchCategory = new System.Windows.Forms.Button();
             this.buttonSearchNameProduct = new System.Windows.Forms.Button();
@@ -50,12 +45,22 @@ namespace PhanMemQuanLyCuaHang
             this.label3 = new System.Windows.Forms.Label();
             this.textBoxNameProductSearch = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.buttonDeleteProduct = new System.Windows.Forms.Button();
             this.buttonEditProduct = new System.Windows.Forms.Button();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.buttonAddProduct = new System.Windows.Forms.Button();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.listBoxCategory = new System.Windows.Forms.ListBox();
+            this.textBoxaddCategory = new System.Windows.Forms.TextBox();
+            this.buttonDeleteCategory = new System.Windows.Forms.Button();
+            this.buttonEditCategory = new System.Windows.Forms.Button();
+            this.buttonaddCategory = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.menuStrip1.SuspendLayout();
             this.SearchgroupBox.SuspendLayout();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -112,34 +117,6 @@ namespace PhanMemQuanLyCuaHang
             this.Column6.Name = "Column6";
             this.Column6.ReadOnly = true;
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.AddMenuStripItem});
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
-            this.menuStrip1.Name = "menuStrip1";
-            // 
-            // AddMenuStripItem
-            // 
-            this.AddMenuStripItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.CategoryToolStripMenuItem,
-            this.ProductToolStripMenuItem1});
-            resources.ApplyResources(this.AddMenuStripItem, "AddMenuStripItem");
-            this.AddMenuStripItem.Name = "AddMenuStripItem";
-            // 
-            // CategoryToolStripMenuItem
-            // 
-            this.CategoryToolStripMenuItem.Name = "CategoryToolStripMenuItem";
-            resources.ApplyResources(this.CategoryToolStripMenuItem, "CategoryToolStripMenuItem");
-            this.CategoryToolStripMenuItem.Click += new System.EventHandler(this.CategoryToolStripMenuItem1_Click);
-            // 
-            // ProductToolStripMenuItem1
-            // 
-            this.ProductToolStripMenuItem1.Name = "ProductToolStripMenuItem1";
-            resources.ApplyResources(this.ProductToolStripMenuItem1, "ProductToolStripMenuItem1");
-            this.ProductToolStripMenuItem1.Click += new System.EventHandler(this.ProductToolStripMenuItem1_Click);
-            // 
             // SearchgroupBox
             // 
             this.SearchgroupBox.Controls.Add(this.buttonSearchCategory);
@@ -152,7 +129,6 @@ namespace PhanMemQuanLyCuaHang
             resources.ApplyResources(this.SearchgroupBox, "SearchgroupBox");
             this.SearchgroupBox.Name = "SearchgroupBox";
             this.SearchgroupBox.TabStop = false;
-            this.SearchgroupBox.Enter += new System.EventHandler(this.SearchgroupBox_Enter);
             // 
             // buttonSearchCategory
             // 
@@ -207,25 +183,89 @@ namespace PhanMemQuanLyCuaHang
             this.buttonEditProduct.UseVisualStyleBackColor = true;
             this.buttonEditProduct.Click += new System.EventHandler(this.buttonEditProduct_Click);
             // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            resources.ApplyResources(this.tabControl1, "tabControl1");
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.buttonAddProduct);
+            this.tabPage1.Controls.Add(this.SearchgroupBox);
+            this.tabPage1.Controls.Add(this.buttonEditProduct);
+            this.tabPage1.Controls.Add(this.buttonDeleteProduct);
+            this.tabPage1.Controls.Add(this.dataGridView1);
+            resources.ApplyResources(this.tabPage1, "tabPage1");
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // buttonAddProduct
+            // 
+            resources.ApplyResources(this.buttonAddProduct, "buttonAddProduct");
+            this.buttonAddProduct.Name = "buttonAddProduct";
+            this.buttonAddProduct.UseVisualStyleBackColor = true;
+            this.buttonAddProduct.Click += new System.EventHandler(this.buttonAddProduct_Click);
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.listBoxCategory);
+            this.tabPage2.Controls.Add(this.textBoxaddCategory);
+            this.tabPage2.Controls.Add(this.buttonDeleteCategory);
+            this.tabPage2.Controls.Add(this.buttonEditCategory);
+            this.tabPage2.Controls.Add(this.buttonaddCategory);
+            resources.ApplyResources(this.tabPage2, "tabPage2");
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // listBoxCategory
+            // 
+            this.listBoxCategory.FormattingEnabled = true;
+            resources.ApplyResources(this.listBoxCategory, "listBoxCategory");
+            this.listBoxCategory.Name = "listBoxCategory";
+            // 
+            // textBoxaddCategory
+            // 
+            resources.ApplyResources(this.textBoxaddCategory, "textBoxaddCategory");
+            this.textBoxaddCategory.Name = "textBoxaddCategory";
+            // 
+            // buttonDeleteCategory
+            // 
+            resources.ApplyResources(this.buttonDeleteCategory, "buttonDeleteCategory");
+            this.buttonDeleteCategory.Name = "buttonDeleteCategory";
+            this.buttonDeleteCategory.UseVisualStyleBackColor = true;
+            this.buttonDeleteCategory.Click += new System.EventHandler(this.buttonDeleteCategory_Click);
+            // 
+            // buttonEditCategory
+            // 
+            resources.ApplyResources(this.buttonEditCategory, "buttonEditCategory");
+            this.buttonEditCategory.Name = "buttonEditCategory";
+            this.buttonEditCategory.UseVisualStyleBackColor = true;
+            this.buttonEditCategory.Click += new System.EventHandler(this.buttonEditCategory_Click);
+            // 
+            // buttonaddCategory
+            // 
+            resources.ApplyResources(this.buttonaddCategory, "buttonaddCategory");
+            this.buttonaddCategory.Name = "buttonaddCategory";
+            this.buttonaddCategory.UseVisualStyleBackColor = true;
+            this.buttonaddCategory.Click += new System.EventHandler(this.buttonaddCategory_Click);
+            // 
             // FormMain
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.buttonEditProduct);
-            this.Controls.Add(this.buttonDeleteProduct);
-            this.Controls.Add(this.SearchgroupBox);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.Controls.Add(this.tabControl1);
             this.Name = "FormMain";
-            this.Load += new System.EventHandler(this.FormMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.SearchgroupBox.ResumeLayout(false);
             this.SearchgroupBox.PerformLayout();
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -238,8 +278,6 @@ namespace PhanMemQuanLyCuaHang
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem AddMenuStripItem;
         private System.Windows.Forms.GroupBox SearchgroupBox;
         private System.Windows.Forms.TextBox textBoxCategorySearch;
         private System.Windows.Forms.Label label4;
@@ -248,11 +286,17 @@ namespace PhanMemQuanLyCuaHang
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button buttonSearchNameProduct;
         private System.Windows.Forms.Button buttonSearchCategory;
-        private System.Windows.Forms.ToolStripMenuItem CategoryToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ProductToolStripMenuItem1;
-        private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Button buttonDeleteProduct;
         private System.Windows.Forms.Button buttonEditProduct;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.Button buttonAddProduct;
+        private System.Windows.Forms.ListBox listBoxCategory;
+        private System.Windows.Forms.TextBox textBoxaddCategory;
+        private System.Windows.Forms.Button buttonDeleteCategory;
+        private System.Windows.Forms.Button buttonEditCategory;
+        private System.Windows.Forms.Button buttonaddCategory;
     }
 }
 

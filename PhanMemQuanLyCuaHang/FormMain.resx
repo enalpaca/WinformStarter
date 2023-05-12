@@ -137,14 +137,18 @@
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 227</value>
+    <value>20, 161</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dataGridView1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="dataGridView1.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>51</value>
   </data>
   <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>900, 276</value>
+    <value>675, 249</value>
   </data>
   <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -156,10 +160,10 @@
     <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>tabPage1</value>
   </data>
   <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <metadata name="Mã.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -233,183 +237,131 @@
   <data name="Column6.Width" type="System.Int32, mscorlib">
     <value>125</value>
   </data>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="&gt;&gt;buttonSearchCategory.Name" xml:space="preserve">
+    <value>buttonSearchCategory</value>
   </data>
-  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>982, 28</value>
+  <data name="&gt;&gt;buttonSearchCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;buttonSearchCategory.Parent" xml:space="preserve">
+    <value>SearchgroupBox</value>
+  </data>
+  <data name="&gt;&gt;buttonSearchCategory.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonSearchNameProduct.Name" xml:space="preserve">
+    <value>buttonSearchNameProduct</value>
+  </data>
+  <data name="&gt;&gt;buttonSearchNameProduct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSearchNameProduct.Parent" xml:space="preserve">
+    <value>SearchgroupBox</value>
+  </data>
+  <data name="&gt;&gt;buttonSearchNameProduct.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
+  <data name="&gt;&gt;textBoxCategorySearch.Name" xml:space="preserve">
+    <value>textBoxCategorySearch</value>
   </data>
-  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
-    <value>menuStrip1</value>
+  <data name="&gt;&gt;textBoxCategorySearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;textBoxCategorySearch.Parent" xml:space="preserve">
+    <value>SearchgroupBox</value>
   </data>
-  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;textBoxCategorySearch.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>SearchgroupBox</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>SearchgroupBox</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="AddMenuStripItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
+  <data name="&gt;&gt;textBoxNameProductSearch.Name" xml:space="preserve">
+    <value>textBoxNameProductSearch</value>
   </data>
-  <data name="AddMenuStripItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 24</value>
+  <data name="&gt;&gt;textBoxNameProductSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="AddMenuStripItem.Text" xml:space="preserve">
-    <value>Quản lý </value>
+  <data name="&gt;&gt;textBoxNameProductSearch.Parent" xml:space="preserve">
+    <value>SearchgroupBox</value>
   </data>
-  <data name="CategoryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 26</value>
+  <data name="&gt;&gt;textBoxNameProductSearch.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
-  <data name="CategoryToolStripMenuItem.Text" xml:space="preserve">
-    <value>Loại hàng</value>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
   </data>
-  <data name="ProductToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 26</value>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="ProductToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Mặt hàng</value>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>SearchgroupBox</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="SearchgroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="SearchgroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="SearchgroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="SearchgroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>675, 90</value>
+  </data>
+  <data name="SearchgroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="SearchgroupBox.Text" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="&gt;&gt;SearchgroupBox.Name" xml:space="preserve">
+    <value>SearchgroupBox</value>
+  </data>
+  <data name="&gt;&gt;SearchgroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SearchgroupBox.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;SearchgroupBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="buttonSearchCategory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="buttonSearchCategory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>317, 62</value>
+    <value>238, 50</value>
+  </data>
+  <data name="buttonSearchCategory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="buttonSearchCategory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>56, 19</value>
   </data>
   <data name="buttonSearchCategory.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -430,10 +382,13 @@
     <value>0</value>
   </data>
   <data name="buttonSearchNameProduct.Location" type="System.Drawing.Point, System.Drawing">
-    <value>317, 19</value>
+    <value>238, 15</value>
+  </data>
+  <data name="buttonSearchNameProduct.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="buttonSearchNameProduct.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>56, 19</value>
   </data>
   <data name="buttonSearchNameProduct.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -454,10 +409,13 @@
     <value>1</value>
   </data>
   <data name="textBoxCategorySearch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>94, 62</value>
+    <value>70, 50</value>
+  </data>
+  <data name="textBoxCategorySearch.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="textBoxCategorySearch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
+    <value>142, 20</value>
   </data>
   <data name="textBoxCategorySearch.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -478,10 +436,13 @@
     <value>True</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 62</value>
+    <value>14, 50</value>
+  </data>
+  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 17</value>
+    <value>54, 13</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -505,10 +466,13 @@
     <value>True</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 62</value>
+    <value>16, 50</value>
+  </data>
+  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 17</value>
+    <value>0, 13</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -526,10 +490,13 @@
     <value>4</value>
   </data>
   <data name="textBoxNameProductSearch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>94, 19</value>
+    <value>70, 15</value>
+  </data>
+  <data name="textBoxNameProductSearch.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="textBoxNameProductSearch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
+    <value>142, 20</value>
   </data>
   <data name="textBoxNameProductSearch.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -550,10 +517,13 @@
     <value>True</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 22</value>
+    <value>14, 18</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 17</value>
+    <value>53, 13</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -573,38 +543,14 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="SearchgroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 76</value>
-  </data>
-  <data name="SearchgroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>760, 97</value>
-  </data>
-  <data name="SearchgroupBox.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="SearchgroupBox.Text" xml:space="preserve">
-    <value>Tìm kiếm</value>
-  </data>
-  <data name="&gt;&gt;SearchgroupBox.Name" xml:space="preserve">
-    <value>SearchgroupBox</value>
-  </data>
-  <data name="&gt;&gt;SearchgroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SearchgroupBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;SearchgroupBox.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>276, 17</value>
-  </metadata>
   <data name="buttonDeleteProduct.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 191</value>
+    <value>99, 123</value>
+  </data>
+  <data name="buttonDeleteProduct.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="buttonDeleteProduct.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>73, 23</value>
   </data>
   <data name="buttonDeleteProduct.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -619,19 +565,22 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonDeleteProduct.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>tabPage1</value>
   </data>
   <data name="&gt;&gt;buttonDeleteProduct.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="buttonEditProduct.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="buttonEditProduct.Location" type="System.Drawing.Point, System.Drawing">
-    <value>154, 191</value>
+    <value>177, 123</value>
+  </data>
+  <data name="buttonEditProduct.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="buttonEditProduct.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>73, 23</value>
   </data>
   <data name="buttonEditProduct.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -646,19 +595,274 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonEditProduct.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>tabPage1</value>
   </data>
   <data name="&gt;&gt;buttonEditProduct.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;buttonAddProduct.Name" xml:space="preserve">
+    <value>buttonAddProduct</value>
+  </data>
+  <data name="&gt;&gt;buttonAddProduct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonAddProduct.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;buttonAddProduct.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPage1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>709, 429</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Quản lý mặt hàng</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="listBoxCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 54</value>
+  </data>
+  <data name="listBoxCategory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="listBoxCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>558, 355</value>
+  </data>
+  <data name="listBoxCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;listBoxCategory.Name" xml:space="preserve">
+    <value>listBoxCategory</value>
+  </data>
+  <data name="&gt;&gt;listBoxCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listBoxCategory.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;listBoxCategory.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textBoxaddCategory.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt</value>
+  </data>
+  <data name="textBoxaddCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 20</value>
+  </data>
+  <data name="textBoxaddCategory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="textBoxaddCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>558, 30</value>
+  </data>
+  <data name="textBoxaddCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;textBoxaddCategory.Name" xml:space="preserve">
+    <value>textBoxaddCategory</value>
+  </data>
+  <data name="&gt;&gt;textBoxaddCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxaddCategory.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;textBoxaddCategory.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonDeleteCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 97</value>
+  </data>
+  <data name="buttonDeleteCategory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="buttonDeleteCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 30</value>
+  </data>
+  <data name="buttonDeleteCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="buttonDeleteCategory.Text" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="&gt;&gt;buttonDeleteCategory.Name" xml:space="preserve">
+    <value>buttonDeleteCategory</value>
+  </data>
+  <data name="&gt;&gt;buttonDeleteCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDeleteCategory.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;buttonDeleteCategory.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonEditCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 54</value>
+  </data>
+  <data name="buttonEditCategory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="buttonEditCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 30</value>
+  </data>
+  <data name="buttonEditCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="buttonEditCategory.Text" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="&gt;&gt;buttonEditCategory.Name" xml:space="preserve">
+    <value>buttonEditCategory</value>
+  </data>
+  <data name="&gt;&gt;buttonEditCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonEditCategory.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;buttonEditCategory.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonaddCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 19</value>
+  </data>
+  <data name="buttonaddCategory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="buttonaddCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 30</value>
+  </data>
+  <data name="buttonaddCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="buttonaddCategory.Text" xml:space="preserve">
+    <value>Thêm loại hàng</value>
+  </data>
+  <data name="&gt;&gt;buttonaddCategory.Name" xml:space="preserve">
+    <value>buttonaddCategory</value>
+  </data>
+  <data name="&gt;&gt;buttonaddCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonaddCategory.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;buttonaddCategory.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPage2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>709, 429</value>
+  </data>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Quản lý loại hàng</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 8</value>
+  </data>
+  <data name="tabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>717, 455</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonAddProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 123</value>
+  </data>
+  <data name="buttonAddProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonAddProduct.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="buttonAddProduct.Text" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="&gt;&gt;buttonAddProduct.Name" xml:space="preserve">
+    <value>buttonAddProduct</value>
+  </data>
+  <data name="&gt;&gt;buttonAddProduct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonAddProduct.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;buttonAddProduct.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>982, 515</value>
+    <value>736, 493</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
@@ -701,30 +905,6 @@
   </data>
   <data name="&gt;&gt;Column6.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AddMenuStripItem.Name" xml:space="preserve">
-    <value>AddMenuStripItem</value>
-  </data>
-  <data name="&gt;&gt;AddMenuStripItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CategoryToolStripMenuItem.Name" xml:space="preserve">
-    <value>CategoryToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;CategoryToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ProductToolStripMenuItem1.Name" xml:space="preserve">
-    <value>ProductToolStripMenuItem1</value>
-  </data>
-  <data name="&gt;&gt;ProductToolStripMenuItem1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
-    <value>toolTip1</value>
-  </data>
-  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FormMain</value>

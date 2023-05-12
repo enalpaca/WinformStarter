@@ -91,14 +91,6 @@ namespace PhanMemQuanLyCuaHang
             f.ShowDialog();  
         }
 
-        private void ProductToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-
-            FormAddProduct f = new FormAddProduct(arrCategories);
-            f.frmMain = this;
-            f.ShowDialog();
-        }
-
         private void updateDatagrid()
         {
             // Xóa toàn bộ data đang có trên lưới
@@ -197,11 +189,6 @@ namespace PhanMemQuanLyCuaHang
             }
         }
 
-        private void FormMain_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void buttonSearchNameProduct_Click(object sender, EventArgs e)
         {
             string name = textBoxNameProductSearch.Text;
@@ -216,11 +203,6 @@ namespace PhanMemQuanLyCuaHang
             }    
         }
 
-        private void SearchgroupBox_Enter(object sender, EventArgs e)
-        {
-
-        }
-
         private void buttonSearchCategory_Click(object sender, EventArgs e)
         {
             string name = textBoxCategorySearch.Text;
@@ -233,6 +215,61 @@ namespace PhanMemQuanLyCuaHang
                 }
                 else { row.Visible = false; }
             }
+        }
+
+        private void buttonAddProduct_Click(object sender, EventArgs e)
+        {
+            FormAddProduct f = new FormAddProduct(arrCategories);
+            f.frmMain = this;
+            f.ShowDialog();
+        }
+
+        private void buttonaddCategory_Click(object sender, EventArgs e)
+        {
+            string Cat = textBoxaddCategory.Text;
+            if (Cat == "" )
+            {
+                MessageBox.Show("Vui lòng nhập loại hàng!");
+            } else if (arrCategories.Contains(Cat))
+            {
+                MessageBox.Show("Loại hàng đã tồn tại.");
+            }
+            else
+            {
+                this.addCategoryToArray(Cat);
+                listBoxCategory.DataSource = null;
+                listBoxCategory.DataSource = this.arrCategories;
+            }
+        }
+
+        private void buttonEditCategory_Click(object sender, EventArgs e)
+        {
+            if (listBoxCategory.SelectedIndex < 0) return;
+
+            var tmpValue = listBoxCategory.Items[listBoxCategory.SelectedIndex].ToString();
+            FormEditValue formEditValue = new FormEditValue("Loại hàng:", tmpValue);
+            formEditValue.value = tmpValue;
+            formEditValue.ShowDialog();
+
+            //TODO: inside "newRoomDisplayForm" set the value to the textbox
+            // ie.: myValueTextBox.Text = this.value;
+
+            if (formEditValue.DialogResult == DialogResult.OK)
+            {
+                // replace the selected item with the new value
+                this.arrCategories[listBoxCategory.SelectedIndex] = formEditValue.value;
+                listBoxCategory.DataSource = null;
+                listBoxCategory.DataSource = this.arrCategories;
+            }
+        }
+
+        private void buttonDeleteCategory_Click(object sender, EventArgs e)
+        {
+            if (listBoxCategory.SelectedIndex < 0) return;
+            string Cat = listBoxCategory.SelectedItem.ToString();
+            this.removeCategoryFromArray(Cat);
+            listBoxCategory.DataSource = null;
+            listBoxCategory.DataSource = this.arrCategories.Where(item => item != null).ToArray();
         }
     }
 }
